@@ -1,6 +1,7 @@
 {
   "name": "nft-minter",
   "version": "0.1.0",
+  "homepage": "https://pavelnaydanov.github.io/NFTMinter/",
   "private": true,
   "dependencies": {
     "@alch/alchemy-web3": "^1.4.6",
@@ -13,6 +14,8 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -37,6 +40,7 @@
     ]
   },
   "devDependencies": {
-    "dotenv": "^8.6.0"
+    "dotenv": "^8.6.0",
+    "gh-pages": "^4.0.0"
   }
 }
