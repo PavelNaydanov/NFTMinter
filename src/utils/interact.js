@@ -6,7 +6,7 @@ require('dotenv').config();
 
 const web3 = createAlchemyWeb3(`https://eth-rinkeby.alchemyapi.io/v2/${process.env.REACT_APP_ALCHEMY_KEY}`);
 
-const contractAddress = "0x913b3F9dFe114d5305940Fb3D3BE53A34657BaA5";
+const contractAddress = "0x1d0648b22ae1beA1F11f78c345AD845e995C918f";
 
 // TODO: мы не должны тут статусы возвращать
 export const connectWalletAsync = async () => {
@@ -127,7 +127,7 @@ export const mintNFT = async(url, name, description) => {
 
     return {
       success: true,
-      status: "✅ Check out your transaction on Etherscan: https://ropsten.etherscan.io/tx/" + txHash
+      status: "✅ Check out your transaction on Etherscan: https://rinkeby.etherscan.io/tx/" + txHash
     }
   }
   catch (error) {
