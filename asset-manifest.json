@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/NFTMinter/static/css/main.1d5c871e.chunk.css",
+    "main.js": "/NFTMinter/static/js/main.caeebca0.chunk.js",
+    "main.js.map": "/NFTMinter/static/js/main.caeebca0.chunk.js.map",
+    "runtime-main.js": "/NFTMinter/static/js/runtime-main.1a39e20a.js",
+    "runtime-main.js.map": "/NFTMinter/static/js/runtime-main.1a39e20a.js.map",
+    "static/js/2.87684f51.chunk.js": "/NFTMinter/static/js/2.87684f51.chunk.js",
+    "static/js/2.87684f51.chunk.js.map": "/NFTMinter/static/js/2.87684f51.chunk.js.map",
+    "index.html": "/NFTMinter/index.html",
+    "static/css/main.1d5c871e.chunk.css.map": "/NFTMinter/static/css/main.1d5c871e.chunk.css.map",
+    "static/js/2.87684f51.chunk.js.LICENSE.txt": "/NFTMinter/static/js/2.87684f51.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1a39e20a.js",
+    "static/js/2.87684f51.chunk.js",
+    "static/css/main.1d5c871e.chunk.css",
+    "static/js/main.caeebca0.chunk.js"
+  ]
+}
