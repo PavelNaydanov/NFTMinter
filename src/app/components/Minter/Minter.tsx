@@ -1,13 +1,17 @@
-import { useEffect, useState } from "react";
+import {
+  useEffect,
+  useState
+} from "react";
+
 import {
   connectWalletAsync,
   getCurrentWalletConnected,
   mintNFT,
-} from "./utils/interact.js";
+} from "app/utils/interact";
 
 const Minter = () => {
   const [walletAddress, setWallet] = useState("");
-  const [status, setStatus] = useState("");
+  const [status, setStatus] = useState<string | React.ReactElement>("");
   const [name, setName] = useState("");
   const [description, setDescription] = useState("");
   const [url, setURL] = useState("");
@@ -24,7 +28,7 @@ const Minter = () => {
 
   function addWalletListener() {
     if (window.ethereum) {
-      window.ethereum.on("accountsChanged", accounts => {
+      window.ethereum.on("accountsChanged", (accounts: any) => {
         if (accounts.length > 0) {
           setWallet(accounts[0]);
           setStatus("👆🏽 Write a message in the text-field above.");
